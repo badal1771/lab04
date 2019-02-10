@@ -42,15 +42,13 @@ cout<<endl;
 };
 int main(){
 queueARR q1;
-for(int i=1;i<6;i++)
+for(int i=1;i<10;i++)
 q1.enqueue(i);
 q1.display();
 q1.dequeue();
 q1.display();
-q1.dequeue();
-q1.display();
-q1.enqueue(23);
-q1.enqueue(34);
+q1.enqueue(26);
+q1.enqueue(24);
 q1.display();
 q1.dequeue();
 q1.dequeue();
